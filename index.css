@@ -156,4 +156,8 @@ button {
                 margin-top: 16px;
                 padding: 0 16px;
         }
+
+        .headerLinks {
+                display: none;
+        }
 }
