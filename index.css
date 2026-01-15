@@ -29,9 +29,9 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 24px auto 0;
         max-width: 1200px;
-        margin-top: 24px;
+        padding: 0 24px;
 }
 
 .headerContent {
@@ -87,4 +87,73 @@ button {
         font-weight: 400;
         box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.15);
         transition: all 0.2s ease;
+}
+
+.conteudoPrincipal {
+    margin: 64px auto 0;
+    max-width: 1200px;
+    padding: 0 24px;
+}
+
+.construcaoSite {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.construcaoContent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+}
+
+.construcaoTextos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+}
+
+.construcaoTextPrimary {
+        font-size: 24px;
+        color: #242424;
+        font-weight: 500;
+}
+
+.construcaoTextSecondary {
+        font-size: 20px;
+        color: #969696;
+}
+
+
+@media (max-width: 1024px) {
+        .conteudoPrincipal {
+                max-width: 900px;
+                margin-top: 48px;
+                padding: 0 20px;
+        }
+
+        .headerFormfy {
+                max-width: 900px;
+                margin-top: 20px;
+                padding: 0 20px;
+        }
+}
+
+@media (max-width: 600px) {
+        .conteudoPrincipal {
+                max-width: 100%;
+                margin-top: 32px;
+                padding: 0 16px;
+        }
+
+        .headerFormfy {
+                max-width: 100%;
+                margin-top: 16px;
+                padding: 0 16px;
+        }
 }
