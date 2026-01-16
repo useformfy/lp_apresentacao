@@ -90,7 +90,7 @@ button {
 }
 
 .conteudoPrincipal {
-    margin: 64px auto 0;
+    margin: 280px auto 0;
     max-width: 1200px;
     padding: 0 24px;
 }
@@ -147,7 +147,7 @@ button {
 @media (max-width: 600px) {
         .conteudoPrincipal {
                 max-width: 100%;
-                margin-top: 32px;
+                margin-top: 74px;
                 padding: 0 16px;
         }
 
@@ -157,7 +157,15 @@ button {
                 padding: 0 16px;
         }
 
+        .logoFormfy {
+                width: 120px;
+        }
+
         .headerLinks {
                 display: none;
+        }
+
+        .buttonHeader {
+                padding: 8px 10px;
         }
 }
